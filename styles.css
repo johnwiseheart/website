@@ -1,0 +1,28 @@
+html,
+body,
+.outer {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  background-color: #fefefe;
+  font-family: monospace;
+}
+
+.name {
+  margin-top: 50px;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  /* align-items: center; */
+}
